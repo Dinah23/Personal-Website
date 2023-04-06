@@ -1,0 +1,31 @@
+h1, h2, section {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+  
+  h1 {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+   
+  section:nth-of-type(odd) > img {
+    float: left;
+    margin: 0 24px 24px 0;    
+  }
+    
+  section:nth-of-type(even) > img {
+    float: right;    
+    margin: 0 24px 24px 0;   
+    
+  }
+  
+  section {
+    border-top: 2px solid #bbb;
+  }
+
+  .fit-picture {
+    width: 450px;
+    height: 400px;
+}
+
+  
+
