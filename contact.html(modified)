@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles for all pages -->
+    <link rel="stylesheet" href="site.css" />
+    <script src="https://httpbin.org/post"></script>
+    <title>Contact</title>
+<body>
+    <form>
+        <label for="FULL NAME">Full Name</label>
+        <input type="text" placeholder="FULL-NAME"><br>
+        <label for="Email">Email</label>
+        <input type="email" placeholder="email address"><br>
+        <label for="Message">Message</label>
+        <textarea name="message" id="Message" cols="50" rows="5"></textarea><br>
+
+        <input type="submit">
+    </form>
+</head>    
+</body>
+</html>
